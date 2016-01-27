@@ -8,7 +8,7 @@
   border-radius: 45%;
   height: 20rem;
   width: 18rem;
-  background-color: #D4AB7F;
+  background-color: #EBC8A2;
 }
 .eye:first-child {
   transform: translate(-4rem, 1rem);
@@ -86,4 +86,31 @@
   height: 3rem;
   width: 3rem;
   background-color: #FF0000;
+}
+.hair {
+  overflow: hidden;
+  transform: translate(-1rem, 0rem);
+  border-radius: 45%;
+  height: 22rem;
+  width: 20rem;
+}
+.hair:before {
+  content: "";
+  display: block;
+  height: 9.5rem;
+  width: 20rem;
+  background-color: #D12C13;
+}
+.hair:after {
+  transform: translate(16rem, -2rem);
+  content: "";
+  display: block;
+  height: 0;
+  width: 0;
+  border-width: 1rem;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  border-bottom-color: #EBC8A2;
+  border-style: solid;
 }
